@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>Stopwatch and Timer</h1>
+
+  <div id="stopwatch" class="box">
+    <h2>Stopwatch</h2>
+    <p id="stopwatch-display">00:00:00</p>
+    <button id="start-btn" class="btn">Start</button>
+    <button id="stop-btn" class="btn">Stop</button>
+    <button id="reset-btn" class="btn">Reset</button>
+  </div>
+
+  <div id="timer" class="box">
+    <h2>Timer</h2>
+    <div id="timer-display">
+      <input type="number" id="hours" min="0" max="99" placeholder="HH">
+      <input type="number" id="minutes" min="0" max="59" placeholder="MM">
+      <input type="number" id="seconds" min="0" max="59" placeholder="SS">
+    </div>
+    <button id="start-timer-btn" class="btn">Start Timer</button>
+    <button id="stop-timer-btn" class="btn">Stop Timer</button>
+  </div>
+  <div class="tool-author-intro">
+    <p>Developed By <i><a href="https://www.linkedin.com/in/omkar-abhishek-jha-0b7a5823a/" target="_blank">Omkar
+          Abhishek Jha</a></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
